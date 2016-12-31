@@ -27,7 +27,7 @@ def get_single_item_data(item_url):
         print(item_name.attrs)
         print(item_name.attrs['content'])
 
-        print("------------------- not master -----------------------------")
+        print("------------------- not master i'm gonna kill master -----------------------------")
 
 
 crawler(2)
