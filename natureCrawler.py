@@ -26,7 +26,9 @@ def get_single_item_data(item_url):
     for item_name in soup.find_all('meta', {'name': 'keywords'}):
         print(item_name.attrs)
         print(item_name.attrs['content'])
+
         print("------------------- not master -----------------------------")
+
 
 crawler(2)
 
